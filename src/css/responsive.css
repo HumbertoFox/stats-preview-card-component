@@ -26,15 +26,19 @@
         margin-top: 40px;
         gap: 29px;
     }
+    body main .div-main .div-main-picture {
+        display: flex;
+        border-radius: 10px 10px 0 0;
+    }
     body main .div-main .picture-img {
         display: flex;
         border-radius: 10px 10px 0 0;
     }
-    body main .div-main .picture-img img {
+    body main .div-main .div-main-picture .picture-img img {
         width: 100%;
         border-radius: 10px 10px 0 0;
     }
-    body main .div-main .picture-img .background-img {
+    body main .div-main .div-main-picture .background-img {
         background: url(../images/image-header-mobile.jpg) no-repeat var(--Soft-violet);
         background-size: contain;
         border-radius: 10px 10px 0 0;
